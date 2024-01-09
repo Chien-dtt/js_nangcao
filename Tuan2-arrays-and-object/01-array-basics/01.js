@@ -29,5 +29,11 @@ console.log(fruits);
 // độ dài không chỉ đọc
 // fruits.length = 2;
 
-fruits[3] = 'strawberry';
+fruits[3] = 'strawberry'; // Thêm phần tử số 3 tên strawberry vào mảng
 console.log(fruits);
+
+// Sử dụng độ dài làm chỉ mục sẽ luôn thêm vào cuối 
+fruits[fruits.length] = 'blueberry'; // Thêm vào cuối mảng
+fruits[fruits.length] = 'peach';
+console.log(fruits);
+
